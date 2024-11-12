@@ -16,7 +16,7 @@ the deployment of an Otter-managed grading virtual machine, and a client package
 students to run public checks on their own machines. Otter is designed to grade Python scripts and 
 Jupyter Notebooks, and is compatible with a few different LMSs, including Canvas and Gradescope.
 
-**NOTE: This version of Otter Grader has been modified for specific use in Introduction to Data Science (CSE217A) at Washington University in St. Louis.
+**NOTE: This version of Otter Grader has been modified for specific use in the course "Introduction to Data Science" (CSE217A) at Washington University in St. Louis.
 Changes to otter by Kyle Montgomery and Max Schoening. Modified and redistributed in compliance with the BSD 3-Clause license linked above.**
 
 ## Documentation
