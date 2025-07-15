@@ -2,7 +2,7 @@
 
 import re
 
-from IPython.core.inputsplitter import IPythonInputSplitter
+#from IPython.core.inputsplitter import IPythonInputSplitter
 from unittest import mock
 
 from ..utils import get_variable_type
@@ -52,7 +52,7 @@ def execute_log(nb, log, check_results_list_name="check_results_secret", initial
             if cell['cell_type'] == 'code':
                 # transform the input to executable Python
                 # FIXME: use appropriate IPython functions here
-                isp = IPythonInputSplitter(line_input_checker=False)
+                #isp = IPythonInputSplitter(line_input_checker=False)
                 
                 code_lines = []
                 cell_source_lines = cell['source']
